@@ -10556,7 +10556,7 @@ typedef int16_t intptr_t;
 
 typedef uint16_t uintptr_t;
 
-# 530 "picuno.h"
+# 530 "../../picuno/picuno.h"
 typedef signed int bool;
 typedef signed int BOOL;
 typedef unsigned int word;
@@ -10671,7 +10671,7 @@ void lcd_write(char *data);
 
 void lcd_init4(byte rs, byte en, byte d4, byte d5, byte d6, byte d7);
 void lcd_init8(byte rs, byte en, byte d0, byte d1, byte d2, byte d3, byte d4, byte d5, byte d6, byte d7);
-void lcd_i2c(void);
+void lcd_init_i2c(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
 void e_pulse(byte k);
 void lcd_begin(byte cols, byte rows);
 
@@ -10763,7 +10763,7 @@ void INT2_CallBack(void);
 void INT2_SetInterruptHandler(void (* InterruptHandler)(void));
 extern void (*INT2_InterruptHandler)(void);
 
-# 3 "i2c_scanner.c"
+# 10 "i2c_scanner.c"
 char buf[32];
 
 void setup(){

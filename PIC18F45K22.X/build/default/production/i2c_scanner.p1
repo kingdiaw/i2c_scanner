@@ -1,5 +1,5 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"548 picuno.h
+"548 ../../picuno/picuno.h
 [s S1180 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1180 . bit0 bit1 bit2 bit3 bit4 bit5 bit6 bit7 ]
 "546
@@ -23,7 +23,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _b_i2c_error_flag `(uc ~T0 @X0 0 ef ]
 "205 C:\Program Files (x86)\Microchip\xc8\v1.33\include\stdio.h
 [v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
-"606 picuno.h
+"606 ../../picuno/picuno.h
 [v _delay `(v ~T0 @X0 0 ef1`ui ]
 [; ;htc.h: 21: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 24: extern void __builtin_software_breakpoint(void);
@@ -8298,7 +8298,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;picuno.h: 541: typedef unsigned int uint16_t;
 [; ;picuno.h: 542: typedef signed long int32_t;
 [; ;picuno.h: 543: typedef unsigned long uint32_t;
-"559 picuno.h
+"559 ../../picuno/picuno.h
 [v _Flags `S1179 ~T0 @X0 1 e ]
 [; ;picuno.h: 545: union
 [; ;picuno.h: 546: {
@@ -8381,7 +8381,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;picuno.h: 654: void lcd_write(char *data);
 [; ;picuno.h: 656: void lcd_init4(byte rs, byte en, byte d4, byte d5, byte d6, byte d7);
 [; ;picuno.h: 657: void lcd_init8(byte rs, byte en, byte d0, byte d1, byte d2, byte d3, byte d4, byte d5, byte d6, byte d7);
-[; ;picuno.h: 658: void lcd_i2c(void);
+[; ;picuno.h: 658: void lcd_init_i2c(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
 [; ;picuno.h: 659: void e_pulse(byte k);
 [; ;picuno.h: 660: void lcd_begin(byte cols, byte rows);
 [; ;picuno.h: 663: extern byte uart1_rx_ready;
@@ -8457,108 +8457,108 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;picuno.h: 752: void INT2_CallBack(void);
 [; ;picuno.h: 753: void INT2_SetInterruptHandler(void (* InterruptHandler)(void));
 [; ;picuno.h: 754: extern void (*INT2_InterruptHandler)(void);
-"3 i2c_scanner.c
+"10 i2c_scanner.c
 [v _buf `uc ~T0 @X0 -> 32 `i e ]
-[; ;i2c_scanner.c: 3: char buf[32];
-"5
+[; ;i2c_scanner.c: 10: char buf[32];
+"12
 [v _setup `(v ~T0 @X0 1 ef ]
 {
-[; ;i2c_scanner.c: 5: void setup(){
+[; ;i2c_scanner.c: 12: void setup(){
 [e :U _setup ]
 [f ]
-[; ;i2c_scanner.c: 6: Serial_begin(9600);
-"6
+[; ;i2c_scanner.c: 13: Serial_begin(9600);
+"13
 [e ( _Serial_begin (1 -> -> -> 9600 `i `l `ul ]
-[; ;i2c_scanner.c: 7: i2c_init(100000);
-"7
+[; ;i2c_scanner.c: 14: i2c_init(100000);
+"14
 [e ( _i2c_init (1 -> -> 100000 `l `ul ]
-[; ;i2c_scanner.c: 8: Serial_println("\nI2C Scanner");
-"8
+[; ;i2c_scanner.c: 15: Serial_println("\nI2C Scanner");
+"15
 [e ( _Serial_println (1 :s 1C ]
-[; ;i2c_scanner.c: 9: }
-"9
+[; ;i2c_scanner.c: 16: }
+"16
 [e :UE 1183 ]
 }
-"10
+"17
 [v _loop `(v ~T0 @X0 1 ef ]
 {
-[; ;i2c_scanner.c: 10: void loop(){
+[; ;i2c_scanner.c: 17: void loop(){
 [e :U _loop ]
 [f ]
-"11
+"18
 [v _error `uc ~T0 @X0 1 a ]
 [v _address `uc ~T0 @X0 1 a ]
-"12
+"19
 [v _nDevices `i ~T0 @X0 1 a ]
-[; ;i2c_scanner.c: 11: byte error, address;
-[; ;i2c_scanner.c: 12: int nDevices;
-[; ;i2c_scanner.c: 14: Serial_println("Scanning...");
-"14
+[; ;i2c_scanner.c: 18: byte error, address;
+[; ;i2c_scanner.c: 19: int nDevices;
+[; ;i2c_scanner.c: 21: Serial_println("Scanning...");
+"21
 [e ( _Serial_println (1 :s 2C ]
-[; ;i2c_scanner.c: 15: nDevices = 0;
-"15
+[; ;i2c_scanner.c: 22: nDevices = 0;
+"22
 [e = _nDevices -> 0 `i ]
-[; ;i2c_scanner.c: 16: for(address = 1; address < 127; address++ )
-"16
+[; ;i2c_scanner.c: 23: for(address = 1; address < 127; address++ )
+"23
 {
 [e = _address -> -> 1 `i `uc ]
 [e $ < -> _address `i -> 127 `i 1185  ]
 [e $U 1186  ]
-"17
+"24
 [e :U 1185 ]
-[; ;i2c_scanner.c: 17: {
+[; ;i2c_scanner.c: 24: {
 {
-[; ;i2c_scanner.c: 18: i2c_out(address,0x00);
-"18
+[; ;i2c_scanner.c: 25: i2c_out(address,0x00);
+"25
 [e ( _i2c_out (2 , _address -> -> 0 `i `uc ]
-[; ;i2c_scanner.c: 19: error = b_i2c_error_flag();
-"19
+[; ;i2c_scanner.c: 26: error = b_i2c_error_flag();
+"26
 [e = _error ( _b_i2c_error_flag ..  ]
-[; ;i2c_scanner.c: 21: if(error == 0){
-"21
+[; ;i2c_scanner.c: 28: if(error == 0){
+"28
 [e $ ! == -> _error `i -> 0 `i 1188  ]
 {
-[; ;i2c_scanner.c: 22: sprintf(buf,"I2C device found at address 0x%.2X!",address);
-"22
+[; ;i2c_scanner.c: 29: sprintf(buf,"I2C device found at address 0x%.2X!",address);
+"29
 [e ( _sprintf (1 , (. , &U _buf :s 3C -> _address `i ]
-[; ;i2c_scanner.c: 23: Serial_println(buf);
-"23
+[; ;i2c_scanner.c: 30: Serial_println(buf);
+"30
 [e ( _Serial_println (1 -> &U _buf `*Cuc ]
-[; ;i2c_scanner.c: 24: nDevices++;
-"24
+[; ;i2c_scanner.c: 31: nDevices++;
+"31
 [e ++ _nDevices -> 1 `i ]
-"25
+"32
 }
 [e :U 1188 ]
-"26
+"33
 }
-"16
+"23
 [e ++ _address -> -> 1 `i `uc ]
 [e $ < -> _address `i -> 127 `i 1185  ]
 [e :U 1186 ]
-"26
+"33
 }
-[; ;i2c_scanner.c: 25: }
-[; ;i2c_scanner.c: 26: }
-[; ;i2c_scanner.c: 27: if (nDevices == 0)
-"27
+[; ;i2c_scanner.c: 32: }
+[; ;i2c_scanner.c: 33: }
+[; ;i2c_scanner.c: 34: if (nDevices == 0)
+"34
 [e $ ! == _nDevices -> 0 `i 1189  ]
-[; ;i2c_scanner.c: 28: Serial_println("No I2C devices found\n");
-"28
+[; ;i2c_scanner.c: 35: Serial_println("No I2C devices found\n");
+"35
 [e ( _Serial_println (1 :s 4C ]
 [e $U 1190  ]
-"29
+"36
 [e :U 1189 ]
-[; ;i2c_scanner.c: 29: else
-[; ;i2c_scanner.c: 30: Serial_println("done\n");
-"30
+[; ;i2c_scanner.c: 36: else
+[; ;i2c_scanner.c: 37: Serial_println("done\n");
+"37
 [e ( _Serial_println (1 :s 5C ]
 [e :U 1190 ]
-[; ;i2c_scanner.c: 32: delay(5000);
-"32
+[; ;i2c_scanner.c: 39: delay(5000);
+"39
 [e ( _delay (1 -> -> 5000 `i `ui ]
-[; ;i2c_scanner.c: 33: }
-"33
+[; ;i2c_scanner.c: 40: }
+"40
 [e :UE 1184 ]
 }
 [p f _sprintf 10551296 ]

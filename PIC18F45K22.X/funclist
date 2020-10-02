@@ -20,7 +20,7 @@ _sprintf: CODE, 3010 0 516
 _hexpowers: SMALLCONST, 1537 0 8
 _INT2_CallBack: CODE, 5172 0 2
 _analogInput: CODE, 5010 0 34
-_InterruptHandlerHigh: CODE, 8 0 654
+_InterruptHandlerHigh: CODE, 8 0 658
 _setup: CODE, 4854 0 70
 _INT0_ISR: CODE, 5154 0 8
 _i2c_init: CODE, 4168 0 144
@@ -29,4 +29,4 @@ _i2c_out: CODE, 4778 0 76
 _pinMode: CODE, 1652 0 1358
 _INT1_ISR: CODE, 5146 0 8
 _INT2_ISR: CODE, 5138 0 8
-Total: 4280
+Total: 4284

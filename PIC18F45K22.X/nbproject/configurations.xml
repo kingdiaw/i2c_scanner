@@ -4,7 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>picuno.h</itemPath>
+      <itemPath>../../picuno/picuno.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -14,7 +14,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>i2c_scanner.c</itemPath>
-      <itemPath>picuno.c</itemPath>
+      <itemPath>../../picuno/picuno.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -24,6 +24,7 @@
   </logicalFolder>
   <sourceRootList>
     <Elem>.</Elem>
+    <Elem>../../picuno</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>

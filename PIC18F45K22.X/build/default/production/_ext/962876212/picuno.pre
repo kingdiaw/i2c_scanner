@@ -1,5 +1,5 @@
 
-# 1 "picuno.c"
+# 1 "../../picuno/picuno.c"
 
 # 21 "C:\Program Files (x86)\Microchip\xc8\v1.33\include\htc.h"
 extern const char __xc8_OPTIM_SPEED;
@@ -10556,7 +10556,7 @@ typedef int16_t intptr_t;
 
 typedef uint16_t uintptr_t;
 
-# 530 "picuno.h"
+# 530 "../../picuno/picuno.h"
 typedef signed int bool;
 typedef signed int BOOL;
 typedef unsigned int word;
@@ -10671,7 +10671,7 @@ void lcd_write(char *data);
 
 void lcd_init4(byte rs, byte en, byte d4, byte d5, byte d6, byte d7);
 void lcd_init8(byte rs, byte en, byte d0, byte d1, byte d2, byte d3, byte d4, byte d5, byte d6, byte d7);
-void lcd_i2c(void);
+void lcd_init_i2c(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
 void e_pulse(byte k);
 void lcd_begin(byte cols, byte rows);
 
@@ -10763,7 +10763,7 @@ void INT2_CallBack(void);
 void INT2_SetInterruptHandler(void (* InterruptHandler)(void));
 extern void (*INT2_InterruptHandler)(void);
 
-# 19 "picuno.c"
+# 19 "../../picuno/picuno.c"
 byte TmrRxd1=0,TmrRxd2=0,HMSec=10,OneSec=100,TmrSec=60;
 
 
@@ -12075,6 +12075,7 @@ byte lcd_rs, lcd_en;
 byte lcd_d0, lcd_d1, lcd_d2, lcd_d3;
 byte lcd_d4, lcd_d5, lcd_d6, lcd_d7;
 byte lcd_cols, lcd_rows;
+byte _Addr,_cols,_rows;
 
 
 
@@ -12094,10 +12095,10 @@ void e_pulse(byte k)
 {
 byte dd = k;
 dd |= 0b00000100;
-i2c_out(0x27,dd);
+i2c_out(_Addr,dd);
 __nop(); __nop(); __nop(); __nop();
 dd &= 0b11111011;
-i2c_out(0x27,dd);
+i2c_out(_Addr,dd);
 __nop(); __nop(); __nop(); __nop();
 }
 
@@ -12118,7 +12119,7 @@ void lcd_putdata(byte d)
 {
 byte dd;
 
-# 1796
+# 1797
 if(lcd_mode==0)
 {
 lcd_nibble(d>>4);
@@ -12127,10 +12128,10 @@ lcd_nibble(d & 0x0F);
 else if(lcd_mode == 2)
 {
 dd = ((d&0xF0)& 0xfe)|0b00001000;
-i2c_out(0x27,dd);
+i2c_out(_Addr,dd);
 e_pulse(dd);
 dd = (((d<<4)&0xf0)& 0xfe)|0b00001000;
-i2c_out(0x27,dd);
+i2c_out(_Addr,dd);
 e_pulse(dd);
 }
 else
@@ -12152,7 +12153,7 @@ __nop(); __nop(); __nop(); __nop();
 digitalWrite(lcd_en,0);
 }
 
-# 1831
+# 1832
 }
 
 void lcd_clear(void){lcd_putdata(0x01); lcdDelay(2);}
@@ -12174,13 +12175,13 @@ byte i,dd;
 if(lcd_mode == 2)
 {
 dd = (d&0xF0)|0x09;
-i2c_out(0x27,dd);
+i2c_out(_Addr,dd);
 e_pulse(dd);
 dd = ((d<<4)&0xf0) | 0x09;
-i2c_out(0x27,dd);
+i2c_out(_Addr,dd);
 e_pulse(dd);
 dd &= 0b11111110;
-i2c_out(0x27,dd);
+i2c_out(_Addr,dd);
 }
 else{
 
@@ -12287,18 +12288,22 @@ pinMode(lcd_d6,0x00);
 pinMode(lcd_d7,0x00);
 }
 
-void lcd_i2c(void)
+void lcd_init_i2c(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows)
 {
 lcd_mode = 2;
 i2c_init(100000);
+_Addr = lcd_Addr;
+_cols = lcd_cols;
+_rows = lcd_rows;
+lcd_begin(lcd_cols,lcd_rows);
 }
 
-void lcd_begin(byte cols, byte rows)
+void lcd_begin(byte lcd_cols, byte lcd_rows)
 {
 byte i,d;
-lcd_cols = cols; lcd_rows = rows;
+_cols = lcd_cols; _rows = lcd_rows;
 
-# 1979
+# 1984
 if(lcd_mode==0)
 {
 lcd_nibble(0x03);
@@ -12316,7 +12321,7 @@ else if(lcd_mode == 2)
 {
 
 d = 0b00111000;
-i2c_out(0x27,d);
+i2c_out(_Addr,d);
 e_pulse(d);
 delay(5);
 e_pulse(d);
@@ -12325,7 +12330,7 @@ e_pulse(d);
 delay(1);
 
 d = 0b00101000;
-i2c_out(0x27,d);
+i2c_out(_Addr,d);
 e_pulse(d);
 delay(1);
 
@@ -12358,10 +12363,10 @@ lcdDelay(1);
 
 lcd_temp = 0;
 
-# 2040
+# 2045
 }
 
-# 2047
+# 2052
 void uart_brg_set(byte com, unsigned long speed)
 {
 byte brgl,brgh;
@@ -12570,7 +12575,7 @@ buffer++;
 }
 }
 
-# 2259
+# 2264
 void Serial2_begin(unsigned long speed)
 {
 uart_brg_set(2,speed);
@@ -12747,7 +12752,7 @@ buffer++;
 Serial2_clear();
 }
 
-# 2439
+# 2444
 byte spi_mode = 0;
 
 void SPI_begin(byte mode)
@@ -12820,7 +12825,7 @@ LATBbits.LATB2=0;
 return rxd;
 }
 
-# 2616
+# 2621
 byte i2c_error_flag = 0;
 
 void i2c_init(unsigned long c)
@@ -13088,7 +13093,7 @@ return rx_data;
 
 }
 
-# 2889
+# 2894
 void pwm_on(void)
 {
 
@@ -13150,7 +13155,7 @@ CCPR2H = 0x00;
 
 CCPTMRS0bits.C2TSEL = 0x0;
 
-# 2954
+# 2959
 CCP3CON = 0x0C;
 
 
@@ -13221,7 +13226,7 @@ CCPR4L = (dutyValue & 0x00FF);
 }
 }
 
-# 3082
+# 3087
 unsigned char InStr(unsigned char SPos, unsigned char *Str1, const char *Str2)
 {
 unsigned char l1=0,l2=0,i,j,c1,c2;

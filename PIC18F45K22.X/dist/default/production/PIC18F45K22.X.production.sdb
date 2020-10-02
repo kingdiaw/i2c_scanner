@@ -3,6 +3,216 @@
 [d edition pro ]
 [d chip 18F45K22 ]
 [d frameptr 4065 ]
+"52 C:\Users\King Diaw (Lenovo)\Documents\GitHub/picuno/picuno.c
+[v _InterruptHandlerHigh InterruptHandlerHigh `II(v  1 e 0 0 ]
+"187
+[v _init init `(v  1 e 0 0 ]
+"280
+[v _sync sync `(v  1 e 0 0 ]
+"295
+[v _delay delay `(v  1 e 0 0 ]
+"312
+[v _millis millis `(ul  1 e 4 0 ]
+"325
+[v _pulseIn pulseIn `(ul  1 e 4 0 ]
+"390
+[v _timerClr timerClr `(v  1 e 0 0 ]
+"396
+[v _timerSet timerSet `(v  1 e 0 0 ]
+"404
+[v _timerUp timerUp `(uc  1 e 1 0 ]
+"411
+[v _timerBusy timerBusy `(uc  1 e 1 0 ]
+"419
+[v _task task `(v  1 e 0 0 ]
+"447
+[v _main main `(v  1 e 0 0 ]
+"466
+[v _analogInput analogInput `(v  1 e 0 0 ]
+"494
+[v _pinMode pinMode `(v  1 e 0 0 ]
+"1448
+[v _digitalRead digitalRead `(uc  1 e 1 0 ]
+"1507
+[v _digitalWrite digitalWrite `(v  1 e 0 0 ]
+"1568
+[v _analogRead analogRead `(ui  1 e 2 0 ]
+"1593
+[v _eeprom_readw eeprom_readw `(ui  1 e 2 0 ]
+"1603
+[v _eeprom_writew eeprom_writew `(v  1 e 0 0 ]
+"1616
+[v _keypad_begin34 keypad_begin34 `(v  1 e 0 0 ]
+"1642
+[v _keypad_begin44 keypad_begin44 `(v  1 e 0 0 ]
+"1671
+[v _keypadRead keypadRead `(uc  1 e 1 0 ]
+"1755
+[v _lcdDelay lcdDelay `(v  1 e 0 0 ]
+"1767
+[v _e_pulse e_pulse `(v  1 e 0 0 ]
+"1779
+[v _lcd_nibble lcd_nibble `(v  1 e 0 0 ]
+"1791
+[v _lcd_putdata lcd_putdata `(v  1 e 0 0 ]
+"1834
+[v _lcd_clear lcd_clear `(v  1 e 0 0 ]
+"1835
+[v _lcd_home lcd_home `(v  1 e 0 0 ]
+"1836
+[v _lcd_setCursor lcd_setCursor `(v  1 e 0 0 ]
+"1837
+[v _lcd_cursor lcd_cursor `(v  1 e 0 0 ]
+"1838
+[v _lcd_noCursor lcd_noCursor `(v  1 e 0 0 ]
+"1839
+[v _lcd_blink lcd_blink `(v  1 e 0 0 ]
+"1840
+[v _lcd_noBlink lcd_noBlink `(v  1 e 0 0 ]
+"1841
+[v _lcd_display lcd_display `(v  1 e 0 0 ]
+"1842
+[v _lcd_noDisplay lcd_noDisplay `(v  1 e 0 0 ]
+"1843
+[v _lcd_line1 lcd_line1 `(v  1 e 0 0 ]
+"1844
+[v _lcd_line2 lcd_line2 `(v  1 e 0 0 ]
+"1847
+[v _lcd_putc lcd_putc `(v  1 e 0 0 ]
+"1873
+[v _lcd_putb lcd_putb `(v  1 e 0 0 ]
+"1887
+[v _lcd_puth lcd_puth `(v  1 e 0 0 ]
+"1900
+[v _lcd_puti lcd_puti `(v  1 e 0 0 ]
+"1921
+[v _lcd_print lcd_print `(v  1 e 0 0 ]
+"1928
+[v _lcd_write lcd_write `(v  1 e 0 0 ]
+"1936
+[v _lcd_init4 lcd_init4 `(v  1 e 0 0 ]
+"1948
+[v _lcd_init8 lcd_init8 `(v  1 e 0 0 ]
+"1966
+[v _lcd_init_i2c lcd_init_i2c `(v  1 e 0 0 ]
+"1976
+[v _lcd_begin lcd_begin `(v  1 e 0 0 ]
+"2052
+[v _uart_brg_set uart_brg_set `(v  1 e 0 0 ]
+"2081
+[v _Serial_begin Serial_begin `(v  1 e 0 0 ]
+"2098
+[v _Serial_end Serial_end `(v  1 e 0 0 ]
+"2105
+[v _Serial_available Serial_available `(uc  1 e 1 0 ]
+"2110
+[v _Serial_putc Serial_putc `(v  1 e 0 0 ]
+"2139
+[v _Serial_crlf Serial_crlf `(v  1 e 0 0 ]
+"2145
+[v _Serial_puth Serial_puth `(v  1 e 0 0 ]
+"2157
+[v _Serial_puti Serial_puti `(v  1 e 0 0 ]
+"2168
+[v _Serial_print Serial_print `(v  1 e 0 0 ]
+"2176
+[v _Serial_println Serial_println `(v  1 e 0 0 ]
+"2186
+[v _Serial_write Serial_write `(v  1 e 0 0 ]
+"2194
+[v _Serial_writeln Serial_writeln `(v  1 e 0 0 ]
+"2204
+[v _Serial_read Serial_read `(uc  1 e 1 0 ]
+"2221
+[v _Serial_ready Serial_ready `(uc  1 e 1 0 ]
+"2226
+[v _Serial_clear Serial_clear `(v  1 e 0 0 ]
+"2236
+[v _Serial_readBytes Serial_readBytes `(v  1 e 0 0 ]
+"2248
+[v _Serial_readString Serial_readString `(v  1 e 0 0 ]
+"2264
+[v _Serial2_begin Serial2_begin `(v  1 e 0 0 ]
+"2276
+[v _Serial2_end Serial2_end `(v  1 e 0 0 ]
+"2283
+[v _Serial2_available Serial2_available `(uc  1 e 1 0 ]
+"2288
+[v _Serial2_putc Serial2_putc `(v  1 e 0 0 ]
+"2317
+[v _Serial2_crlf Serial2_crlf `(v  1 e 0 0 ]
+"2323
+[v _Serial2_puth Serial2_puth `(v  1 e 0 0 ]
+"2335
+[v _Serial2_puti Serial2_puti `(v  1 e 0 0 ]
+"2346
+[v _Serial2_print Serial2_print `(v  1 e 0 0 ]
+"2354
+[v _Serial2_println Serial2_println `(v  1 e 0 0 ]
+"2364
+[v _Serial2_write Serial2_write `(v  1 e 0 0 ]
+"2372
+[v _Serial2_writeln Serial2_writeln `(v  1 e 0 0 ]
+"2382
+[v _Serial2_read Serial2_read `(uc  1 e 1 0 ]
+"2399
+[v _Serial2_ready Serial2_ready `(uc  1 e 1 0 ]
+"2404
+[v _Serial2_clear Serial2_clear `(v  1 e 0 0 ]
+"2414
+[v _Serial2_readBytes Serial2_readBytes `(v  1 e 0 0 ]
+"2427
+[v _Serial2_readString Serial2_readString `(v  1 e 0 0 ]
+"2446
+[v _SPI_begin SPI_begin `(v  1 e 0 0 ]
+"2486
+[v _SPI_transfer SPI_transfer `(uc  1 e 1 0 ]
+"2623
+[v _i2c_init i2c_init `(v  1 e 0 0 ]
+"2652
+[v _b_i2c_error_flag b_i2c_error_flag `(uc  1 e 1 0 ]
+"2657
+[v _i2c_idle i2c_idle `(v  1 e 0 0 ]
+"2664
+[v _i2c_out i2c_out `(v  1 e 0 0 ]
+"2716
+[v _i2c_write i2c_write `(v  1 e 0 0 ]
+"2784
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+"2894
+[v _pwm_on pwm_on `(v  1 e 0 0 ]
+"2999
+[v _pwm_off pwm_off `(v  1 e 0 0 ]
+"3004
+[v _pwm_out pwm_out `(v  1 e 0 0 ]
+"3087
+[v _InStr InStr `(uc  1 e 1 0 ]
+"3119
+[v _FindChar FindChar `(uc  1 e 1 0 ]
+"3134
+[v _StrToUInt StrToUInt `(ui  1 e 2 0 ]
+"3153
+[v _INT0_ISR INT0_ISR `(v  1 e 0 0 ]
+"3161
+[v _INT0_CallBack INT0_CallBack `(v  1 e 0 0 ]
+"3170
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 0 0 ]
+"3174
+[v _INT1_ISR INT1_ISR `(v  1 e 0 0 ]
+"3182
+[v _INT1_CallBack INT1_CallBack `(v  1 e 0 0 ]
+"3191
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 0 0 ]
+"3195
+[v _INT2_ISR INT2_ISR `(v  1 e 0 0 ]
+"3204
+[v _INT2_CallBack INT2_CallBack `(v  1 e 0 0 ]
+"3213
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 0 0 ]
+"3217
+[v _attachInterrupt attachInterrupt `(v  1 e 0 0 ]
+"3241
+[v _detachInterrupt detachInterrupt `(v  1 e 0 0 ]
 "4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abdiv.c
 [v ___abdiv __abdiv `(c  1 e 1 0 ]
 "4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abmod.c
@@ -135,220 +345,129 @@
 [v _Read_b_eep Read_b_eep `(uc  1 e 1 0 ]
 "30 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\EEP\write_B.c
 [v _Write_b_eep Write_b_eep `(v  1 e 0 0 ]
-"5 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\i2c_scanner.c
+"12 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\i2c_scanner.c
 [v _setup setup `(v  1 e 0 0 ]
-"10
+"17
 [v _loop loop `(v  1 e 0 0 ]
-"52 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\picuno.c
-[v _InterruptHandlerHigh InterruptHandlerHigh `II(v  1 e 0 0 ]
-"187
-[v _init init `(v  1 e 0 0 ]
-"280
-[v _sync sync `(v  1 e 0 0 ]
-"295
-[v _delay delay `(v  1 e 0 0 ]
-"312
-[v _millis millis `(ul  1 e 4 0 ]
-"325
-[v _pulseIn pulseIn `(ul  1 e 4 0 ]
-"390
-[v _timerClr timerClr `(v  1 e 0 0 ]
-"396
-[v _timerSet timerSet `(v  1 e 0 0 ]
-"404
-[v _timerUp timerUp `(uc  1 e 1 0 ]
-"411
-[v _timerBusy timerBusy `(uc  1 e 1 0 ]
-"419
-[v _task task `(v  1 e 0 0 ]
-"447
-[v _main main `(v  1 e 0 0 ]
-"466
-[v _analogInput analogInput `(v  1 e 0 0 ]
-"494
-[v _pinMode pinMode `(v  1 e 0 0 ]
-"1448
-[v _digitalRead digitalRead `(uc  1 e 1 0 ]
-"1507
-[v _digitalWrite digitalWrite `(v  1 e 0 0 ]
-"1568
-[v _analogRead analogRead `(ui  1 e 2 0 ]
-"1593
-[v _eeprom_readw eeprom_readw `(ui  1 e 2 0 ]
-"1603
-[v _eeprom_writew eeprom_writew `(v  1 e 0 0 ]
-"1616
-[v _keypad_begin34 keypad_begin34 `(v  1 e 0 0 ]
-"1642
-[v _keypad_begin44 keypad_begin44 `(v  1 e 0 0 ]
-"1671
-[v _keypadRead keypadRead `(uc  1 e 1 0 ]
-"1754
-[v _lcdDelay lcdDelay `(v  1 e 0 0 ]
-"1766
-[v _e_pulse e_pulse `(v  1 e 0 0 ]
-"1778
-[v _lcd_nibble lcd_nibble `(v  1 e 0 0 ]
-"1790
-[v _lcd_putdata lcd_putdata `(v  1 e 0 0 ]
-"1833
-[v _lcd_clear lcd_clear `(v  1 e 0 0 ]
-"1834
-[v _lcd_home lcd_home `(v  1 e 0 0 ]
-"1835
-[v _lcd_setCursor lcd_setCursor `(v  1 e 0 0 ]
-"1836
-[v _lcd_cursor lcd_cursor `(v  1 e 0 0 ]
-"1837
-[v _lcd_noCursor lcd_noCursor `(v  1 e 0 0 ]
-"1838
-[v _lcd_blink lcd_blink `(v  1 e 0 0 ]
-"1839
-[v _lcd_noBlink lcd_noBlink `(v  1 e 0 0 ]
-"1840
-[v _lcd_display lcd_display `(v  1 e 0 0 ]
-"1841
-[v _lcd_noDisplay lcd_noDisplay `(v  1 e 0 0 ]
-"1842
-[v _lcd_line1 lcd_line1 `(v  1 e 0 0 ]
-"1843
-[v _lcd_line2 lcd_line2 `(v  1 e 0 0 ]
-"1846
-[v _lcd_putc lcd_putc `(v  1 e 0 0 ]
-"1872
-[v _lcd_putb lcd_putb `(v  1 e 0 0 ]
-"1886
-[v _lcd_puth lcd_puth `(v  1 e 0 0 ]
-"1899
-[v _lcd_puti lcd_puti `(v  1 e 0 0 ]
-"1920
-[v _lcd_print lcd_print `(v  1 e 0 0 ]
-"1927
-[v _lcd_write lcd_write `(v  1 e 0 0 ]
-"1935
-[v _lcd_init4 lcd_init4 `(v  1 e 0 0 ]
-"1947
-[v _lcd_init8 lcd_init8 `(v  1 e 0 0 ]
-"1965
-[v _lcd_i2c lcd_i2c `(v  1 e 0 0 ]
-"1971
-[v _lcd_begin lcd_begin `(v  1 e 0 0 ]
-"2047
-[v _uart_brg_set uart_brg_set `(v  1 e 0 0 ]
-"2076
-[v _Serial_begin Serial_begin `(v  1 e 0 0 ]
-"2093
-[v _Serial_end Serial_end `(v  1 e 0 0 ]
-"2100
-[v _Serial_available Serial_available `(uc  1 e 1 0 ]
-"2105
-[v _Serial_putc Serial_putc `(v  1 e 0 0 ]
-"2134
-[v _Serial_crlf Serial_crlf `(v  1 e 0 0 ]
-"2140
-[v _Serial_puth Serial_puth `(v  1 e 0 0 ]
-"2152
-[v _Serial_puti Serial_puti `(v  1 e 0 0 ]
-"2163
-[v _Serial_print Serial_print `(v  1 e 0 0 ]
-"2171
-[v _Serial_println Serial_println `(v  1 e 0 0 ]
-"2181
-[v _Serial_write Serial_write `(v  1 e 0 0 ]
-"2189
-[v _Serial_writeln Serial_writeln `(v  1 e 0 0 ]
-"2199
-[v _Serial_read Serial_read `(uc  1 e 1 0 ]
-"2216
-[v _Serial_ready Serial_ready `(uc  1 e 1 0 ]
-"2221
-[v _Serial_clear Serial_clear `(v  1 e 0 0 ]
-"2231
-[v _Serial_readBytes Serial_readBytes `(v  1 e 0 0 ]
-"2243
-[v _Serial_readString Serial_readString `(v  1 e 0 0 ]
-"2259
-[v _Serial2_begin Serial2_begin `(v  1 e 0 0 ]
-"2271
-[v _Serial2_end Serial2_end `(v  1 e 0 0 ]
-"2278
-[v _Serial2_available Serial2_available `(uc  1 e 1 0 ]
-"2283
-[v _Serial2_putc Serial2_putc `(v  1 e 0 0 ]
-"2312
-[v _Serial2_crlf Serial2_crlf `(v  1 e 0 0 ]
-"2318
-[v _Serial2_puth Serial2_puth `(v  1 e 0 0 ]
-"2330
-[v _Serial2_puti Serial2_puti `(v  1 e 0 0 ]
-"2341
-[v _Serial2_print Serial2_print `(v  1 e 0 0 ]
-"2349
-[v _Serial2_println Serial2_println `(v  1 e 0 0 ]
-"2359
-[v _Serial2_write Serial2_write `(v  1 e 0 0 ]
-"2367
-[v _Serial2_writeln Serial2_writeln `(v  1 e 0 0 ]
-"2377
-[v _Serial2_read Serial2_read `(uc  1 e 1 0 ]
-"2394
-[v _Serial2_ready Serial2_ready `(uc  1 e 1 0 ]
-"2399
-[v _Serial2_clear Serial2_clear `(v  1 e 0 0 ]
-"2409
-[v _Serial2_readBytes Serial2_readBytes `(v  1 e 0 0 ]
-"2422
-[v _Serial2_readString Serial2_readString `(v  1 e 0 0 ]
-"2441
-[v _SPI_begin SPI_begin `(v  1 e 0 0 ]
-"2481
-[v _SPI_transfer SPI_transfer `(uc  1 e 1 0 ]
-"2618
-[v _i2c_init i2c_init `(v  1 e 0 0 ]
-"2647
-[v _b_i2c_error_flag b_i2c_error_flag `(uc  1 e 1 0 ]
-"2652
-[v _i2c_idle i2c_idle `(v  1 e 0 0 ]
-"2659
-[v _i2c_out i2c_out `(v  1 e 0 0 ]
-"2711
-[v _i2c_write i2c_write `(v  1 e 0 0 ]
-"2779
-[v _i2c_read i2c_read `(uc  1 e 1 0 ]
-"2889
-[v _pwm_on pwm_on `(v  1 e 0 0 ]
-"2994
-[v _pwm_off pwm_off `(v  1 e 0 0 ]
-"2999
-[v _pwm_out pwm_out `(v  1 e 0 0 ]
-"3082
-[v _InStr InStr `(uc  1 e 1 0 ]
-"3114
-[v _FindChar FindChar `(uc  1 e 1 0 ]
-"3129
-[v _StrToUInt StrToUInt `(ui  1 e 2 0 ]
-"3148
-[v _INT0_ISR INT0_ISR `(v  1 e 0 0 ]
-"3156
-[v _INT0_CallBack INT0_CallBack `(v  1 e 0 0 ]
-"3165
-[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 0 0 ]
-"3169
-[v _INT1_ISR INT1_ISR `(v  1 e 0 0 ]
-"3177
-[v _INT1_CallBack INT1_CallBack `(v  1 e 0 0 ]
-"3186
-[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 0 0 ]
-"3190
-[v _INT2_ISR INT2_ISR `(v  1 e 0 0 ]
-"3199
-[v _INT2_CallBack INT2_CallBack `(v  1 e 0 0 ]
-"3208
-[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 0 0 ]
-"3212
-[v _attachInterrupt attachInterrupt `(v  1 e 0 0 ]
-"3236
-[v _detachInterrupt detachInterrupt `(v  1 e 0 0 ]
+"19 C:\Users\King Diaw (Lenovo)\Documents\GitHub/picuno/picuno.c
+[v _TmrRxd1 TmrRxd1 `uc  1 e 1 0 ]
+[v _TmrRxd2 TmrRxd2 `uc  1 e 1 0 ]
+[v _HMSec HMSec `uc  1 e 1 0 ]
+[v _OneSec OneSec `uc  1 e 1 0 ]
+[v _TmrSec TmrSec `uc  1 e 1 0 ]
+"22
+[v _uart1_tx_pos uart1_tx_pos `uc  1 e 1 0 ]
+[v _uart1_tx_cnt uart1_tx_cnt `uc  1 e 1 0 ]
+[v _uart1_cr_cnt uart1_cr_cnt `uc  1 e 1 0 ]
+[v _uart1_lf_cnt uart1_lf_cnt `uc  1 e 1 0 ]
+"23
+[v _uart1_rx_pos uart1_rx_pos `uc  1 e 1 0 ]
+[v _uart1_rx_cnt uart1_rx_cnt `uc  1 e 1 0 ]
+[v _uart1_rx_char uart1_rx_char `uc  1 e 1 0 ]
+[v _uart1_rx_ready uart1_rx_ready `uc  1 e 1 0 ]
+"24
+[v _uart1_txbuf uart1_txbuf `[33]uc  1 e 33 0 ]
+"25
+[v _uart1_rxbuf uart1_rxbuf `[96]uc  1 e 96 0 ]
+"28
+[v _uart2_tx_pos uart2_tx_pos `uc  1 e 1 0 ]
+[v _uart2_tx_cnt uart2_tx_cnt `uc  1 e 1 0 ]
+[v _uart2_cr_cnt uart2_cr_cnt `uc  1 e 1 0 ]
+[v _uart2_lf_cnt uart2_lf_cnt `uc  1 e 1 0 ]
+"29
+[v _uart2_rx_pos uart2_rx_pos `uc  1 e 1 0 ]
+[v _uart2_rx_cnt uart2_rx_cnt `uc  1 e 1 0 ]
+[v _uart2_rx_char uart2_rx_char `uc  1 e 1 0 ]
+[v _uart2_rx_ready uart2_rx_ready `uc  1 e 1 0 ]
+"30
+[v _uart2_txbuf uart2_txbuf `[33]uc  1 e 33 0 ]
+"31
+[v _uart2_rxbuf uart2_rxbuf `[96]uc  1 e 96 0 ]
+"37
+[v _TimerFlag TimerFlag `uc  1 e 1 0 ]
+"38
+[v _TimerArray TimerArray `[10]ui  1 e 20 0 ]
+"41
+[v _sysTick sysTick `ul  1 e 4 0 ]
+"44
+[v _Task1 Task1 `uc  1 e 1 0 ]
+[v _Task2 Task2 `uc  1 e 1 0 ]
+[v _Task3 Task3 `uc  1 e 1 0 ]
+[v _Task4 Task4 `uc  1 e 1 0 ]
+"45
+[v _Task5 Task5 `uc  1 e 1 0 ]
+[v _Task6 Task6 `uc  1 e 1 0 ]
+[v _Task7 Task7 `uc  1 e 1 0 ]
+[v _Task8 Task8 `uc  1 e 1 0 ]
+"47
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
+"48
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
+"49
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 e 2 0 ]
+"1612
+[v _keypad_mode keypad_mode `uc  1 e 1 0 ]
+"1613
+[v _keypad_col1 keypad_col1 `uc  1 e 1 0 ]
+[v _keypad_col2 keypad_col2 `uc  1 e 1 0 ]
+[v _keypad_col3 keypad_col3 `uc  1 e 1 0 ]
+[v _keypad_col4 keypad_col4 `uc  1 e 1 0 ]
+"1614
+[v _keypad_row1 keypad_row1 `uc  1 e 1 0 ]
+[v _keypad_row2 keypad_row2 `uc  1 e 1 0 ]
+[v _keypad_row3 keypad_row3 `uc  1 e 1 0 ]
+[v _keypad_row4 keypad_row4 `uc  1 e 1 0 ]
+"1741
+[v _lcd_mode lcd_mode `uc  1 e 1 0 ]
+"1745
+[v _lcd_temp lcd_temp `uc  1 e 1 0 ]
+"1746
+[v _lcd_disp lcd_disp `uc  1 e 1 0 ]
+"1747
+[v _lcd_rs lcd_rs `uc  1 e 1 0 ]
+[v _lcd_en lcd_en `uc  1 e 1 0 ]
+"1748
+[v _lcd_d0 lcd_d0 `uc  1 e 1 0 ]
+[v _lcd_d1 lcd_d1 `uc  1 e 1 0 ]
+[v _lcd_d2 lcd_d2 `uc  1 e 1 0 ]
+[v _lcd_d3 lcd_d3 `uc  1 e 1 0 ]
+"1749
+[v _lcd_d4 lcd_d4 `uc  1 e 1 0 ]
+[v _lcd_d5 lcd_d5 `uc  1 e 1 0 ]
+[v _lcd_d6 lcd_d6 `uc  1 e 1 0 ]
+[v _lcd_d7 lcd_d7 `uc  1 e 1 0 ]
+"1750
+[v _lcd_cols lcd_cols `uc  1 e 1 0 ]
+[v _lcd_rows lcd_rows `uc  1 e 1 0 ]
+"1751
+[v __Addr _Addr `uc  1 e 1 0 ]
+[v __cols _cols `uc  1 e 1 0 ]
+[v __rows _rows `uc  1 e 1 0 ]
+"2444
+[v _spi_mode spi_mode `uc  1 e 1 0 ]
+"2621
+[v _i2c_error_flag i2c_error_flag `uc  1 e 1 0 ]
+[s S21 . 1 `uc 1 bit0 1 0 :1:0 
+`uc 1 bit1 1 0 :1:1 
+`uc 1 bit2 1 0 :1:2 
+`uc 1 bit3 1 0 :1:3 
+`uc 1 bit4 1 0 :1:4 
+`uc 1 bit5 1 0 :1:5 
+`uc 1 bit6 1 0 :1:6 
+`uc 1 bit7 1 0 :1:7 
+]
+"559 C:\Users\King Diaw (Lenovo)\Documents\GitHub/picuno/picuno.h
+[u S30 . 1 `S21 1 Bit 1 0 `uc 1 Byte 1 0 ]
+[v _Flags Flags `S30  1 e 1 0 ]
+[s S33 . 1 `uc 1 hold 1 0 :1:0 
+`uc 1 press 1 0 :1:1 
+`uc 1 idle 1 0 :1:2 
+`uc 1 stateChange 1 0 :1:3 
+`uc 1 reserved 1 0 :4:4 
+]
+"570
+[u S39 . 1 `S33 1 s 1 0 ]
+[v _kstate kstate `S39  1 e 1 0 ]
 "47 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f45k22.h
 [v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
 "91
@@ -361,25 +480,25 @@
 [v _ANSELE ANSELE `VEuc  1 e 1 @3900 ]
 "682
 [v _VREFCON0 VREFCON0 `VEuc  1 e 1 @3906 ]
-[s S2710 . 1 `uc 1 C4TSEL 1 0 :2:0 
+[s S2716 . 1 `uc 1 C4TSEL 1 0 :2:0 
 `uc 1 C5TSEL 1 0 :2:2 
 ]
 "1336
-[s S2713 . 1 `uc 1 C4TSEL0 1 0 :1:0 
+[s S2719 . 1 `uc 1 C4TSEL0 1 0 :1:0 
 `uc 1 C4TSEL1 1 0 :1:1 
 `uc 1 C5TSEL0 1 0 :1:2 
 `uc 1 C5TSEL1 1 0 :1:3 
 ]
-[u S2718 . 1 `S2710 1 . 1 0 `S2713 1 . 1 0 ]
-[v _CCPTMRS1bits CCPTMRS1bits `VES2718  1 e 1 @3912 ]
-[s S2661 . 1 `uc 1 C1TSEL 1 0 :2:0 
+[u S2724 . 1 `S2716 1 . 1 0 `S2719 1 . 1 0 ]
+[v _CCPTMRS1bits CCPTMRS1bits `VES2724  1 e 1 @3912 ]
+[s S2667 . 1 `uc 1 C1TSEL 1 0 :2:0 
 `uc 1 . 1 0 :1:2 
 `uc 1 C2TSEL 1 0 :2:3 
 `uc 1 . 1 0 :1:5 
 `uc 1 C3TSEL 1 0 :2:6 
 ]
 "1394
-[s S2667 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+[s S2673 . 1 `uc 1 C1TSEL0 1 0 :1:0 
 `uc 1 C1TSEL1 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 C2TSEL0 1 0 :1:3 
@@ -388,8 +507,8 @@
 `uc 1 C3TSEL0 1 0 :1:6 
 `uc 1 C3TSEL1 1 0 :1:7 
 ]
-[u S2676 . 1 `S2661 1 . 1 0 `S2667 1 . 1 0 ]
-[v _CCPTMRS0bits CCPTMRS0bits `VES2676  1 e 1 @3913 ]
+[u S2682 . 1 `S2667 1 . 1 0 `S2673 1 . 1 0 ]
+[v _CCPTMRS0bits CCPTMRS0bits `VES2682  1 e 1 @3913 ]
 "2014
 [v _CCP4CON CCP4CON `VEuc  1 e 1 @3927 ]
 "2083
@@ -420,7 +539,7 @@
 [v _CCPR2L CCPR2L `VEuc  1 e 1 @3943 ]
 "3376
 [v _CCPR2H CCPR2H `VEuc  1 e 1 @3944 ]
-[s S1877 . 1 `uc 1 ABDEN 1 0 :1:0 
+[s S1883 . 1 `uc 1 ABDEN 1 0 :1:0 
 `uc 1 WUE 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 BRG16 1 0 :1:3 
@@ -430,40 +549,40 @@
 `uc 1 ABDOVF 1 0 :1:7 
 ]
 "4400
-[s S1886 . 1 `uc 1 . 1 0 :4:0 
+[s S1892 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 SCKP 1 0 :1:4 
 ]
-[s S2025 . 1 `uc 1 ABDEN2 1 0 :1:0 
+[s S2031 . 1 `uc 1 ABDEN2 1 0 :1:0 
 ]
-[s S2027 . 1 `uc 1 . 1 0 :7:0 
+[s S2033 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 ABDOVF2 1 0 :1:7 
 ]
-[s S2030 . 1 `uc 1 . 1 0 :3:0 
+[s S2036 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 BRG162 1 0 :1:3 
 ]
-[s S2033 . 1 `uc 1 . 1 0 :5:0 
+[s S2039 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 DTRXP2 1 0 :1:5 
 ]
-[s S2036 . 1 `uc 1 . 1 0 :6:0 
+[s S2042 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RCIDL2 1 0 :1:6 
 ]
-[s S2039 . 1 `uc 1 . 1 0 :6:0 
+[s S2045 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RCMT2 1 0 :1:6 
 ]
-[s S2042 . 1 `uc 1 . 1 0 :5:0 
+[s S2048 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 RXDTP2 1 0 :1:5 
 ]
-[s S2045 . 1 `uc 1 . 1 0 :4:0 
+[s S2051 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 SCKP2 1 0 :1:4 
 ]
-[s S2048 . 1 `uc 1 . 1 0 :4:0 
+[s S2054 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TXCKP2 1 0 :1:4 
 ]
-[s S2051 . 1 `uc 1 . 1 0 :1:0 
+[s S2057 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 WUE2 1 0 :1:1 
 ]
-[u S2054 . 1 `S1877 1 . 1 0 `S1886 1 . 1 0 `S2025 1 . 1 0 `S2027 1 . 1 0 `S2030 1 . 1 0 `S2033 1 . 1 0 `S2036 1 . 1 0 `S2039 1 . 1 0 `S2042 1 . 1 0 `S2045 1 . 1 0 `S2048 1 . 1 0 `S2051 1 . 1 0 ]
-[v _BAUDCON2bits BAUDCON2bits `VES2054  1 e 1 @3952 ]
+[u S2060 . 1 `S1883 1 . 1 0 `S1892 1 . 1 0 `S2031 1 . 1 0 `S2033 1 . 1 0 `S2036 1 . 1 0 `S2039 1 . 1 0 `S2042 1 . 1 0 `S2045 1 . 1 0 `S2048 1 . 1 0 `S2051 1 . 1 0 `S2054 1 . 1 0 `S2057 1 . 1 0 ]
+[v _BAUDCON2bits BAUDCON2bits `VES2060  1 e 1 @3952 ]
 "4642
 [v _RCSTA2 RCSTA2 `VEuc  1 e 1 @3953 ]
 [s S266 . 1 `uc 1 RX9D 1 0 :1:0 
@@ -975,7 +1094,7 @@
 ]
 [u S370 . 1 `S357 1 . 1 0 `S365 1 . 1 0 ]
 [v _PIR1bits PIR1bits `VES370  1 e 1 @3998 ]
-[s S2112 . 1 `uc 1 TMR1GIE 1 0 :1:0 
+[s S2118 . 1 `uc 1 TMR1GIE 1 0 :1:0 
 `uc 1 TMR3GIE 1 0 :1:1 
 `uc 1 TMR5GIE 1 0 :1:2 
 `uc 1 CTMUIE 1 0 :1:3 
@@ -985,29 +1104,29 @@
 `uc 1 SSP2IE 1 0 :1:7 
 ]
 "10278
-[s S2121 . 1 `uc 1 RXB0IE 1 0 :1:0 
+[s S2127 . 1 `uc 1 RXB0IE 1 0 :1:0 
 ]
-[s S2123 . 1 `uc 1 . 1 0 :1:0 
+[s S2129 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 RXB1IE 1 0 :1:1 
 ]
-[s S2126 . 1 `uc 1 . 1 0 :1:0 
+[s S2132 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 RXBNIE 1 0 :1:1 
 ]
-[s S2129 . 1 `uc 1 . 1 0 :2:0 
+[s S2135 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 TXB0IE 1 0 :1:2 
 ]
-[s S2132 . 1 `uc 1 . 1 0 :3:0 
+[s S2138 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 TXB1IE 1 0 :1:3 
 ]
-[s S2135 . 1 `uc 1 . 1 0 :4:0 
+[s S2141 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TXB2IE 1 0 :1:4 
 ]
-[s S2138 . 1 `uc 1 . 1 0 :4:0 
+[s S2144 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TXBNIE 1 0 :1:4 
 ]
-[u S2141 . 1 `S2112 1 . 1 0 `S2121 1 . 1 0 `S2123 1 . 1 0 `S2126 1 . 1 0 `S2129 1 . 1 0 `S2132 1 . 1 0 `S2135 1 . 1 0 `S2138 1 . 1 0 ]
-[v _PIE3bits PIE3bits `VES2141  1 e 1 @4003 ]
-[s S3473 . 1 `uc 1 RD 1 0 :1:0 
+[u S2147 . 1 `S2118 1 . 1 0 `S2127 1 . 1 0 `S2129 1 . 1 0 `S2132 1 . 1 0 `S2135 1 . 1 0 `S2138 1 . 1 0 `S2141 1 . 1 0 `S2144 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES2147  1 e 1 @4003 ]
+[s S3485 . 1 `uc 1 RD 1 0 :1:0 
 `uc 1 WR 1 0 :1:1 
 `uc 1 WREN 1 0 :1:2 
 `uc 1 WRERR 1 0 :1:3 
@@ -1017,11 +1136,11 @@
 `uc 1 EEPGD 1 0 :1:7 
 ]
 "10536
-[s S3482 . 1 `uc 1 . 1 0 :6:0 
+[s S3494 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 EEFS 1 0 :1:6 
 ]
-[u S3485 . 1 `S3473 1 . 1 0 `S3482 1 . 1 0 ]
-[v _EECON1bits EECON1bits `VES3485  1 e 1 @4006 ]
+[u S3497 . 1 `S3485 1 . 1 0 `S3494 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES3497  1 e 1 @4006 ]
 "10580
 [v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
 "10599
@@ -1045,62 +1164,62 @@
 "12464
 [v _PWM1CON PWM1CON `VEuc  1 e 1 @4023 ]
 "12810
-[s S1889 . 1 `uc 1 ABDEN1 1 0 :1:0 
+[s S1895 . 1 `uc 1 ABDEN1 1 0 :1:0 
 ]
-[s S1891 . 1 `uc 1 . 1 0 :7:0 
+[s S1897 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 ABDOVF1 1 0 :1:7 
 ]
-[s S1894 . 1 `uc 1 . 1 0 :3:0 
+[s S1900 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 BRG161 1 0 :1:3 
 ]
-[s S1897 . 1 `uc 1 . 1 0 :5:0 
+[s S1903 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 DTRXP1 1 0 :1:5 
 ]
-[s S1900 . 1 `uc 1 . 1 0 :6:0 
+[s S1906 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RCIDL1 1 0 :1:6 
 ]
-[s S1903 . 1 `uc 1 . 1 0 :6:0 
+[s S1909 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RCMT 1 0 :1:6 
 ]
-[s S1906 . 1 `uc 1 . 1 0 :6:0 
+[s S1912 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RCMT1 1 0 :1:6 
 ]
-[s S1909 . 1 `uc 1 . 1 0 :5:0 
+[s S1915 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 RXDTP 1 0 :1:5 
 ]
-[s S1912 . 1 `uc 1 . 1 0 :5:0 
+[s S1918 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 RXDTP1 1 0 :1:5 
 ]
-[s S1915 . 1 `uc 1 . 1 0 :4:0 
+[s S1921 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 SCKP1 1 0 :1:4 
 ]
-[s S1918 . 1 `uc 1 . 1 0 :4:0 
+[s S1924 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TXCKP 1 0 :1:4 
 ]
-[s S1921 . 1 `uc 1 . 1 0 :4:0 
+[s S1927 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TXCKP1 1 0 :1:4 
 ]
-[s S1924 . 1 `uc 1 . 1 0 :1:0 
+[s S1930 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 WUE1 1 0 :1:1 
 ]
-[s S1927 . 1 `uc 1 . 1 0 :5:0 
+[s S1933 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 RXCKP 1 0 :1:5 
 ]
-[s S1930 . 1 `uc 1 . 1 0 :1:0 
+[s S1936 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 W4E 1 0 :1:1 
 ]
-[u S1933 . 1 `S1877 1 . 1 0 `S1886 1 . 1 0 `S1889 1 . 1 0 `S1891 1 . 1 0 `S1894 1 . 1 0 `S1897 1 . 1 0 `S1900 1 . 1 0 `S1903 1 . 1 0 `S1906 1 . 1 0 `S1909 1 . 1 0 `S1912 1 . 1 0 `S1915 1 . 1 0 `S1918 1 . 1 0 `S1921 1 . 1 0 `S1924 1 . 1 0 `S1927 1 . 1 0 `S1930 1 . 1 0 ]
-[v _BAUDCON1bits BAUDCON1bits `VES1933  1 e 1 @4024 ]
+[u S1939 . 1 `S1883 1 . 1 0 `S1892 1 . 1 0 `S1895 1 . 1 0 `S1897 1 . 1 0 `S1900 1 . 1 0 `S1903 1 . 1 0 `S1906 1 . 1 0 `S1909 1 . 1 0 `S1912 1 . 1 0 `S1915 1 . 1 0 `S1918 1 . 1 0 `S1921 1 . 1 0 `S1924 1 . 1 0 `S1927 1 . 1 0 `S1930 1 . 1 0 `S1933 1 . 1 0 `S1936 1 . 1 0 ]
+[v _BAUDCON1bits BAUDCON1bits `VES1939  1 e 1 @4024 ]
 "13506
 [v _PSTR1CON PSTR1CON `VEuc  1 e 1 @4025 ]
 "13679
 [v _T2CON T2CON `VEuc  1 e 1 @4026 ]
-[s S2730 . 1 `uc 1 T2CKPS 1 0 :2:0 
+[s S2736 . 1 `uc 1 T2CKPS 1 0 :2:0 
 `uc 1 TMR2ON 1 0 :1:2 
 `uc 1 T2OUTPS 1 0 :4:3 
 ]
 "13700
-[s S2734 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+[s S2740 . 1 `uc 1 T2CKPS0 1 0 :1:0 
 `uc 1 T2CKPS1 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 T2OUTPS0 1 0 :1:3 
@@ -1108,8 +1227,8 @@
 `uc 1 T2OUTPS2 1 0 :1:5 
 `uc 1 T2OUTPS3 1 0 :1:6 
 ]
-[u S2742 . 1 `S2730 1 . 1 0 `S2734 1 . 1 0 ]
-[v _T2CONbits T2CONbits `VES2742  1 e 1 @4026 ]
+[u S2748 . 1 `S2736 1 . 1 0 `S2740 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES2748  1 e 1 @4026 ]
 "13749
 [v _PR2 PR2 `VEuc  1 e 1 @4027 ]
 "13768
@@ -1165,7 +1284,7 @@
 [v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
 "14222
 [v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
-[s S2506 . 1 `uc 1 SEN 1 0 :1:0 
+[s S2512 . 1 `uc 1 SEN 1 0 :1:0 
 `uc 1 RSEN 1 0 :1:1 
 `uc 1 PEN 1 0 :1:2 
 `uc 1 RCEN 1 0 :1:3 
@@ -1175,106 +1294,106 @@
 `uc 1 GCEN 1 0 :1:7 
 ]
 "14526
-[s S2515 . 1 `uc 1 . 1 0 :5:0 
+[s S2521 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 ACKDT1 1 0 :1:5 
 ]
-[s S2518 . 1 `uc 1 . 1 0 :4:0 
+[s S2524 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 ACKEN1 1 0 :1:4 
 ]
-[s S2521 . 1 `uc 1 . 1 0 :6:0 
+[s S2527 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 ACKSTAT1 1 0 :1:6 
 ]
-[s S2524 . 1 `uc 1 . 1 0 :1:0 
+[s S2530 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 ADMSK1 1 0 :1:1 
 ]
-[s S2527 . 1 `uc 1 . 1 0 :1:0 
+[s S2533 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 ADMSK11 1 0 :1:1 
 ]
-[s S2530 . 1 `uc 1 . 1 0 :2:0 
+[s S2536 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 ADMSK2 1 0 :1:2 
 ]
-[s S2533 . 1 `uc 1 . 1 0 :2:0 
+[s S2539 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 ADMSK21 1 0 :1:2 
 ]
-[s S2536 . 1 `uc 1 . 1 0 :3:0 
+[s S2542 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 ADMSK3 1 0 :1:3 
 ]
-[s S2539 . 1 `uc 1 . 1 0 :3:0 
+[s S2545 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 ADMSK31 1 0 :1:3 
 ]
-[s S2542 . 1 `uc 1 . 1 0 :4:0 
+[s S2548 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 ADMSK4 1 0 :1:4 
 ]
-[s S2545 . 1 `uc 1 . 1 0 :4:0 
+[s S2551 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 ADMSK41 1 0 :1:4 
 ]
-[s S2548 . 1 `uc 1 . 1 0 :5:0 
+[s S2554 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 ADMSK5 1 0 :1:5 
 ]
-[s S2551 . 1 `uc 1 . 1 0 :5:0 
+[s S2557 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 ADMSK51 1 0 :1:5 
 ]
-[s S2554 . 1 `uc 1 . 1 0 :7:0 
+[s S2560 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 GCEN1 1 0 :1:7 
 ]
-[s S2557 . 1 `uc 1 . 1 0 :2:0 
+[s S2563 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PEN1 1 0 :1:2 
 ]
-[s S2560 . 1 `uc 1 . 1 0 :3:0 
+[s S2566 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 RCEN1 1 0 :1:3 
 ]
-[s S2563 . 1 `uc 1 . 1 0 :1:0 
+[s S2569 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 RSEN1 1 0 :1:1 
 ]
-[s S2566 . 1 `uc 1 SEN1 1 0 :1:0 
+[s S2572 . 1 `uc 1 SEN1 1 0 :1:0 
 ]
-[u S2568 . 1 `S2506 1 . 1 0 `S2515 1 . 1 0 `S2518 1 . 1 0 `S2521 1 . 1 0 `S2524 1 . 1 0 `S2527 1 . 1 0 `S2530 1 . 1 0 `S2533 1 . 1 0 `S2536 1 . 1 0 `S2539 1 . 1 0 `S2542 1 . 1 0 `S2545 1 . 1 0 `S2548 1 . 1 0 `S2551 1 . 1 0 `S2554 1 . 1 0 `S2557 1 . 1 0 `S2560 1 . 1 0 `S2563 1 . 1 0 `S2566 1 . 1 0 ]
-[v _SSPCON2bits SSPCON2bits `VES2568  1 e 1 @4037 ]
-[s S2182 . 1 `uc 1 SSPM 1 0 :4:0 
+[u S2574 . 1 `S2512 1 . 1 0 `S2521 1 . 1 0 `S2524 1 . 1 0 `S2527 1 . 1 0 `S2530 1 . 1 0 `S2533 1 . 1 0 `S2536 1 . 1 0 `S2539 1 . 1 0 `S2542 1 . 1 0 `S2545 1 . 1 0 `S2548 1 . 1 0 `S2551 1 . 1 0 `S2554 1 . 1 0 `S2557 1 . 1 0 `S2560 1 . 1 0 `S2563 1 . 1 0 `S2566 1 . 1 0 `S2569 1 . 1 0 `S2572 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES2574  1 e 1 @4037 ]
+[s S2188 . 1 `uc 1 SSPM 1 0 :4:0 
 `uc 1 CKP 1 0 :1:4 
 `uc 1 SSPEN 1 0 :1:5 
 `uc 1 SSPOV 1 0 :1:6 
 `uc 1 WCOL 1 0 :1:7 
 ]
 "14850
-[s S2188 . 1 `uc 1 SSPM0 1 0 :1:0 
+[s S2194 . 1 `uc 1 SSPM0 1 0 :1:0 
 `uc 1 SSPM1 1 0 :1:1 
 `uc 1 SSPM2 1 0 :1:2 
 `uc 1 SSPM3 1 0 :1:3 
 ]
-[s S2193 . 1 `uc 1 . 1 0 :4:0 
+[s S2199 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 CKP1 1 0 :1:4 
 ]
-[s S2196 . 1 `uc 1 . 1 0 :5:0 
+[s S2202 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 SSPEN1 1 0 :1:5 
 ]
-[s S2199 . 1 `uc 1 SSPM01 1 0 :1:0 
+[s S2205 . 1 `uc 1 SSPM01 1 0 :1:0 
 ]
-[s S2201 . 1 `uc 1 . 1 0 :1:0 
+[s S2207 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 SSPM11 1 0 :1:1 
 ]
-[s S2204 . 1 `uc 1 . 1 0 :2:0 
+[s S2210 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 SSPM21 1 0 :1:2 
 ]
-[s S2207 . 1 `uc 1 . 1 0 :3:0 
+[s S2213 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 SSPM31 1 0 :1:3 
 ]
-[s S2210 . 1 `uc 1 . 1 0 :6:0 
+[s S2216 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 SSPOV1 1 0 :1:6 
 ]
-[s S2213 . 1 `uc 1 . 1 0 :7:0 
+[s S2219 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 WCOL1 1 0 :1:7 
 ]
-[u S2216 . 1 `S2182 1 . 1 0 `S2188 1 . 1 0 `S2193 1 . 1 0 `S2196 1 . 1 0 `S2199 1 . 1 0 `S2201 1 . 1 0 `S2204 1 . 1 0 `S2207 1 . 1 0 `S2210 1 . 1 0 `S2213 1 . 1 0 ]
-[v _SSPCON1bits SSPCON1bits `VES2216  1 e 1 @4038 ]
-[s S2262 . 1 `uc 1 . 1 0 :2:0 
+[u S2222 . 1 `S2188 1 . 1 0 `S2194 1 . 1 0 `S2199 1 . 1 0 `S2202 1 . 1 0 `S2205 1 . 1 0 `S2207 1 . 1 0 `S2210 1 . 1 0 `S2213 1 . 1 0 `S2216 1 . 1 0 `S2219 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES2222  1 e 1 @4038 ]
+[s S2268 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 R_NOT_W 1 0 :1:2 
 ]
 "15436
-[s S2265 . 1 `uc 1 . 1 0 :5:0 
+[s S2271 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 D_NOT_A 1 0 :1:5 
 ]
-[s S2268 . 1 `uc 1 BF 1 0 :1:0 
+[s S2274 . 1 `uc 1 BF 1 0 :1:0 
 `uc 1 UA 1 0 :1:1 
 `uc 1 R_nW 1 0 :1:2 
 `uc 1 S 1 0 :1:3 
@@ -1283,98 +1402,98 @@
 `uc 1 CKE 1 0 :1:6 
 `uc 1 SMP 1 0 :1:7 
 ]
-[s S2277 . 1 `uc 1 . 1 0 :2:0 
+[s S2283 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 R 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 D 1 0 :1:5 
 ]
-[s S2282 . 1 `uc 1 . 1 0 :2:0 
+[s S2288 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 W 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 A 1 0 :1:5 
 ]
-[s S2287 . 1 `uc 1 . 1 0 :2:0 
+[s S2293 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 nW 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 nA 1 0 :1:5 
 ]
-[s S2292 . 1 `uc 1 . 1 0 :2:0 
+[s S2298 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 R_W 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 D_A 1 0 :1:5 
 ]
-[s S2297 . 1 `uc 1 . 1 0 :2:0 
+[s S2303 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_WRITE 1 0 :1:2 
 ]
-[s S2300 . 1 `uc 1 . 1 0 :5:0 
+[s S2306 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 NOT_ADDRESS 1 0 :1:5 
 ]
-[s S2303 . 1 `uc 1 . 1 0 :2:0 
+[s S2309 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 nWRITE 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 nADDRESS 1 0 :1:5 
 ]
-[s S2308 . 1 `uc 1 BF1 1 0 :1:0 
+[s S2314 . 1 `uc 1 BF1 1 0 :1:0 
 ]
-[s S2310 . 1 `uc 1 . 1 0 :6:0 
+[s S2316 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 CKE1 1 0 :1:6 
 ]
-[s S2313 . 1 `uc 1 . 1 0 :5:0 
+[s S2319 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 DA 1 0 :1:5 
 ]
-[s S2316 . 1 `uc 1 . 1 0 :5:0 
+[s S2322 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 DA1 1 0 :1:5 
 ]
-[s S2319 . 1 `uc 1 . 1 0 :5:0 
+[s S2325 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 DATA_ADDRESS 1 0 :1:5 
 ]
-[s S2322 . 1 `uc 1 . 1 0 :5:0 
+[s S2328 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 I2C_DAT 1 0 :1:5 
 ]
-[s S2325 . 1 `uc 1 . 1 0 :2:0 
+[s S2331 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 I2C_READ 1 0 :1:2 
 ]
-[s S2328 . 1 `uc 1 . 1 0 :3:0 
+[s S2334 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 I2C_START 1 0 :1:3 
 ]
-[s S2331 . 1 `uc 1 . 1 0 :4:0 
+[s S2337 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 I2C_STOP 1 0 :1:4 
 ]
-[s S2334 . 1 `uc 1 . 1 0 :2:0 
+[s S2340 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 READ_WRITE 1 0 :1:2 
 ]
-[s S2337 . 1 `uc 1 . 1 0 :2:0 
+[s S2343 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 RW 1 0 :1:2 
 ]
-[s S2340 . 1 `uc 1 . 1 0 :2:0 
+[s S2346 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 RW1 1 0 :1:2 
 ]
-[s S2343 . 1 `uc 1 . 1 0 :7:0 
+[s S2349 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 SMP1 1 0 :1:7 
 ]
-[s S2346 . 1 `uc 1 . 1 0 :3:0 
+[s S2352 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 START 1 0 :1:3 
 ]
-[s S2349 . 1 `uc 1 . 1 0 :3:0 
+[s S2355 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 START1 1 0 :1:3 
 ]
-[s S2352 . 1 `uc 1 . 1 0 :4:0 
+[s S2358 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 STOP 1 0 :1:4 
 ]
-[s S2355 . 1 `uc 1 . 1 0 :4:0 
+[s S2361 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 STOP1 1 0 :1:4 
 ]
-[s S2358 . 1 `uc 1 . 1 0 :1:0 
+[s S2364 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 UA1 1 0 :1:1 
 ]
-[s S2361 . 1 `uc 1 . 1 0 :2:0 
+[s S2367 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_W 1 0 :1:2 
 ]
-[s S2364 . 1 `uc 1 . 1 0 :5:0 
+[s S2370 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 NOT_A 1 0 :1:5 
 ]
-[u S2367 . 1 `S2262 1 . 1 0 `S2265 1 . 1 0 `S2268 1 . 1 0 `S2277 1 . 1 0 `S2282 1 . 1 0 `S2287 1 . 1 0 `S2292 1 . 1 0 `S2297 1 . 1 0 `S2300 1 . 1 0 `S2303 1 . 1 0 `S2308 1 . 1 0 `S2310 1 . 1 0 `S2313 1 . 1 0 `S2316 1 . 1 0 `S2319 1 . 1 0 `S2322 1 . 1 0 `S2325 1 . 1 0 `S2328 1 . 1 0 `S2331 1 . 1 0 `S2334 1 . 1 0 `S2337 1 . 1 0 `S2340 1 . 1 0 `S2343 1 . 1 0 `S2346 1 . 1 0 `S2349 1 . 1 0 `S2352 1 . 1 0 `S2355 1 . 1 0 `S2358 1 . 1 0 `S2361 1 . 1 0 `S2364 1 . 1 0 ]
-[v _SSPSTATbits SSPSTATbits `VES2367  1 e 1 @4039 ]
+[u S2373 . 1 `S2268 1 . 1 0 `S2271 1 . 1 0 `S2274 1 . 1 0 `S2283 1 . 1 0 `S2288 1 . 1 0 `S2293 1 . 1 0 `S2298 1 . 1 0 `S2303 1 . 1 0 `S2306 1 . 1 0 `S2309 1 . 1 0 `S2314 1 . 1 0 `S2316 1 . 1 0 `S2319 1 . 1 0 `S2322 1 . 1 0 `S2325 1 . 1 0 `S2328 1 . 1 0 `S2331 1 . 1 0 `S2334 1 . 1 0 `S2337 1 . 1 0 `S2340 1 . 1 0 `S2343 1 . 1 0 `S2346 1 . 1 0 `S2349 1 . 1 0 `S2352 1 . 1 0 `S2355 1 . 1 0 `S2358 1 . 1 0 `S2361 1 . 1 0 `S2364 1 . 1 0 `S2367 1 . 1 0 `S2370 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES2373  1 e 1 @4039 ]
 "15655
 [v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
 "15987
@@ -1456,11 +1575,11 @@
 [v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
 "17468
 [v _INTCON3bits INTCON3bits `VES228  1 e 1 @4080 ]
-[s S2774 . 1 `uc 1 . 1 0 :7:0 
+[s S2780 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 NOT_RBPU 1 0 :1:7 
 ]
 "17557
-[s S2777 . 1 `uc 1 RBIP 1 0 :1:0 
+[s S2783 . 1 `uc 1 RBIP 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 TMR0IP 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -1469,11 +1588,11 @@
 `uc 1 INTEDG0 1 0 :1:6 
 `uc 1 nRBPU 1 0 :1:7 
 ]
-[s S2786 . 1 `uc 1 . 1 0 :7:0 
+[s S2792 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RBPU 1 0 :1:7 
 ]
-[u S2789 . 1 `S2774 1 . 1 0 `S2777 1 . 1 0 `S2786 1 . 1 0 ]
-[v _INTCON2bits INTCON2bits `VES2789  1 e 1 @4081 ]
+[u S2795 . 1 `S2780 1 . 1 0 `S2783 1 . 1 0 `S2792 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES2795  1 e 1 @4081 ]
 [s S129 . 1 `uc 1 RBIF 1 0 :1:0 
 `uc 1 INT0IF 1 0 :1:1 
 `uc 1 TMR0IF 1 0 :1:2 
@@ -1535,124 +1654,9 @@
 [v _TXIP TXIP `VEb  1 e 0 @31996 ]
 "362 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\doprnt.c
 [v _hexpowers hexpowers `C[4]ui  1 s 8 hexpowers ]
-"3 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\i2c_scanner.c
+"10 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\i2c_scanner.c
 [v _buf buf `[32]uc  1 e 32 0 ]
-"19 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\picuno.c
-[v _TmrRxd1 TmrRxd1 `uc  1 e 1 0 ]
-[v _TmrRxd2 TmrRxd2 `uc  1 e 1 0 ]
-[v _HMSec HMSec `uc  1 e 1 0 ]
-[v _OneSec OneSec `uc  1 e 1 0 ]
-[v _TmrSec TmrSec `uc  1 e 1 0 ]
-"22
-[v _uart1_tx_pos uart1_tx_pos `uc  1 e 1 0 ]
-[v _uart1_tx_cnt uart1_tx_cnt `uc  1 e 1 0 ]
-[v _uart1_cr_cnt uart1_cr_cnt `uc  1 e 1 0 ]
-[v _uart1_lf_cnt uart1_lf_cnt `uc  1 e 1 0 ]
-"23
-[v _uart1_rx_pos uart1_rx_pos `uc  1 e 1 0 ]
-[v _uart1_rx_cnt uart1_rx_cnt `uc  1 e 1 0 ]
-[v _uart1_rx_char uart1_rx_char `uc  1 e 1 0 ]
-[v _uart1_rx_ready uart1_rx_ready `uc  1 e 1 0 ]
-"24
-[v _uart1_txbuf uart1_txbuf `[33]uc  1 e 33 0 ]
-"25
-[v _uart1_rxbuf uart1_rxbuf `[96]uc  1 e 96 0 ]
-"28
-[v _uart2_tx_pos uart2_tx_pos `uc  1 e 1 0 ]
-[v _uart2_tx_cnt uart2_tx_cnt `uc  1 e 1 0 ]
-[v _uart2_cr_cnt uart2_cr_cnt `uc  1 e 1 0 ]
-[v _uart2_lf_cnt uart2_lf_cnt `uc  1 e 1 0 ]
-"29
-[v _uart2_rx_pos uart2_rx_pos `uc  1 e 1 0 ]
-[v _uart2_rx_cnt uart2_rx_cnt `uc  1 e 1 0 ]
-[v _uart2_rx_char uart2_rx_char `uc  1 e 1 0 ]
-[v _uart2_rx_ready uart2_rx_ready `uc  1 e 1 0 ]
-"30
-[v _uart2_txbuf uart2_txbuf `[33]uc  1 e 33 0 ]
-"31
-[v _uart2_rxbuf uart2_rxbuf `[96]uc  1 e 96 0 ]
-"37
-[v _TimerFlag TimerFlag `uc  1 e 1 0 ]
-"38
-[v _TimerArray TimerArray `[10]ui  1 e 20 0 ]
-"41
-[v _sysTick sysTick `ul  1 e 4 0 ]
-"44
-[v _Task1 Task1 `uc  1 e 1 0 ]
-[v _Task2 Task2 `uc  1 e 1 0 ]
-[v _Task3 Task3 `uc  1 e 1 0 ]
-[v _Task4 Task4 `uc  1 e 1 0 ]
-"45
-[v _Task5 Task5 `uc  1 e 1 0 ]
-[v _Task6 Task6 `uc  1 e 1 0 ]
-[v _Task7 Task7 `uc  1 e 1 0 ]
-[v _Task8 Task8 `uc  1 e 1 0 ]
-"47
-[v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
-"48
-[v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
-"49
-[v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 e 2 0 ]
-"1612
-[v _keypad_mode keypad_mode `uc  1 e 1 0 ]
-"1613
-[v _keypad_col1 keypad_col1 `uc  1 e 1 0 ]
-[v _keypad_col2 keypad_col2 `uc  1 e 1 0 ]
-[v _keypad_col3 keypad_col3 `uc  1 e 1 0 ]
-[v _keypad_col4 keypad_col4 `uc  1 e 1 0 ]
-"1614
-[v _keypad_row1 keypad_row1 `uc  1 e 1 0 ]
-[v _keypad_row2 keypad_row2 `uc  1 e 1 0 ]
-[v _keypad_row3 keypad_row3 `uc  1 e 1 0 ]
-[v _keypad_row4 keypad_row4 `uc  1 e 1 0 ]
-"1741
-[v _lcd_mode lcd_mode `uc  1 e 1 0 ]
-"1745
-[v _lcd_temp lcd_temp `uc  1 e 1 0 ]
-"1746
-[v _lcd_disp lcd_disp `uc  1 e 1 0 ]
-"1747
-[v _lcd_rs lcd_rs `uc  1 e 1 0 ]
-[v _lcd_en lcd_en `uc  1 e 1 0 ]
-"1748
-[v _lcd_d0 lcd_d0 `uc  1 e 1 0 ]
-[v _lcd_d1 lcd_d1 `uc  1 e 1 0 ]
-[v _lcd_d2 lcd_d2 `uc  1 e 1 0 ]
-[v _lcd_d3 lcd_d3 `uc  1 e 1 0 ]
-"1749
-[v _lcd_d4 lcd_d4 `uc  1 e 1 0 ]
-[v _lcd_d5 lcd_d5 `uc  1 e 1 0 ]
-[v _lcd_d6 lcd_d6 `uc  1 e 1 0 ]
-[v _lcd_d7 lcd_d7 `uc  1 e 1 0 ]
-"1750
-[v _lcd_cols lcd_cols `uc  1 e 1 0 ]
-[v _lcd_rows lcd_rows `uc  1 e 1 0 ]
-"2439
-[v _spi_mode spi_mode `uc  1 e 1 0 ]
-"2616
-[v _i2c_error_flag i2c_error_flag `uc  1 e 1 0 ]
-[s S21 . 1 `uc 1 bit0 1 0 :1:0 
-`uc 1 bit1 1 0 :1:1 
-`uc 1 bit2 1 0 :1:2 
-`uc 1 bit3 1 0 :1:3 
-`uc 1 bit4 1 0 :1:4 
-`uc 1 bit5 1 0 :1:5 
-`uc 1 bit6 1 0 :1:6 
-`uc 1 bit7 1 0 :1:7 
-]
-"559 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\picuno.h
-[u S30 . 1 `S21 1 Bit 1 0 `uc 1 Byte 1 0 ]
-[v _Flags Flags `S30  1 e 1 0 ]
-[s S33 . 1 `uc 1 hold 1 0 :1:0 
-`uc 1 press 1 0 :1:1 
-`uc 1 idle 1 0 :1:2 
-`uc 1 stateChange 1 0 :1:3 
-`uc 1 reserved 1 0 :4:4 
-]
-"570
-[u S39 . 1 `S33 1 s 1 0 ]
-[v _kstate kstate `S39  1 e 1 0 ]
-"447 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\picuno.c
+"447 C:\Users\King Diaw (Lenovo)\Documents\GitHub/picuno/picuno.c
 [v _main main `(v  1 e 0 0 ]
 {
 "458
@@ -1667,16 +1671,16 @@
 {
 "289
 } 0
-"5 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\i2c_scanner.c
+"12 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\i2c_scanner.c
 [v _setup setup `(v  1 e 0 0 ]
 {
-"9
+"16
 } 0
-"2618 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\picuno.c
+"2623 C:\Users\King Diaw (Lenovo)\Documents\GitHub/picuno/picuno.c
 [v _i2c_init i2c_init `(v  1 e 0 0 ]
 {
 [v i2c_init@c c `ul  1 p 4 0 ]
-"2645
+"2650
 } 0
 "494
 [v _pinMode pinMode `(v  1 e 0 0 ]
@@ -1699,25 +1703,25 @@
 [v analogInput@ANx ANx `uc  1 a 1 19 ]
 "485
 } 0
-"2076
+"2081
 [v _Serial_begin Serial_begin `(v  1 e 0 0 ]
 {
 [v Serial_begin@speed speed `ul  1 p 4 11 ]
-"2091
+"2096
 } 0
-"2047
+"2052
 [v _uart_brg_set uart_brg_set `(v  1 e 0 0 ]
 {
 [v uart_brg_set@com com `uc  1 a 1 wreg ]
-"2049
+"2054
 [v uart_brg_set@brgh brgh `uc  1 a 1 10 ]
 [v uart_brg_set@brgl brgl `uc  1 a 1 9 ]
-"2047
+"2052
 [v uart_brg_set@com com `uc  1 a 1 wreg ]
 [v uart_brg_set@speed speed `ul  1 p 4 0 ]
-"2051
+"2056
 [v uart_brg_set@com com `uc  1 a 1 8 ]
-"2071
+"2076
 } 0
 "8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c
 [v ___lldiv __lldiv `(ul  1 e 4 0 ]
@@ -1731,25 +1735,25 @@
 [v ___lldiv@divisor divisor `ul  1 p 4 21 ]
 "31
 } 0
-"10 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\i2c_scanner.c
+"17 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\i2c_scanner.c
 [v _loop loop `(v  1 e 0 0 ]
 {
-"12
-[v loop@nDevices nDevices `i  1 a 2 14 ]
-"11
-[v loop@address address `uc  1 a 1 16 ]
-[v loop@error error `uc  1 a 1 13 ]
-"33
+"19
+[v loop@nDevices nDevices `i  1 a 2 1 ]
+"18
+[v loop@address address `uc  1 a 1 3 ]
+[v loop@error error `uc  1 a 1 0 ]
+"40
 } 0
 "492 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\doprnt.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
 {
 "1509
 [v sprintf@idx idx `uc  1 a 1 3 ]
-[s S3460 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
+[s S3472 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
 "533
-[u S3463 . 5 `ui 1 _val 2 0 `S3460 1 _str 5 0 ]
-[v sprintf@_val _val `S3463  1 a 5 6 ]
+[u S3475 . 5 `ui 1 _val 2 0 `S3472 1 _str 5 0 ]
+[v sprintf@_val _val `S3475  1 a 5 6 ]
 "494
 [v sprintf@ap ap `[1]*.39v  1 a 2 4 ]
 "499
@@ -1784,20 +1788,20 @@
 [v ___lwdiv@divisor divisor `ui  1 p 2 19 ]
 "31
 } 0
-"2659 C:\Users\King Diaw (Lenovo)\Documents\GitHub\i2c_scanner\PIC18F45K22.X\picuno.c
+"2664 C:\Users\King Diaw (Lenovo)\Documents\GitHub/picuno/picuno.c
 [v _i2c_out i2c_out `(v  1 e 0 0 ]
 {
 [v i2c_out@slave_address slave_address `uc  1 a 1 wreg ]
 [v i2c_out@slave_address slave_address `uc  1 a 1 wreg ]
 [v i2c_out@data data `uc  1 p 1 18 ]
-"2662
+"2667
 [v i2c_out@slave_address slave_address `uc  1 a 1 19 ]
-"2708
+"2713
 } 0
-"2652
+"2657
 [v _i2c_idle i2c_idle `(v  1 e 0 0 ]
 {
-"2656
+"2661
 } 0
 "295
 [v _delay delay `(v  1 e 0 0 ]
@@ -1808,28 +1812,28 @@
 [v delay@ms ms `ui  1 p 2 17 ]
 "306
 } 0
-"2647
+"2652
 [v _b_i2c_error_flag b_i2c_error_flag `(uc  1 e 1 0 ]
 {
-"2650
+"2655
 } 0
-"2171
+"2176
 [v _Serial_println Serial_println `(v  1 e 0 0 ]
 {
 [v Serial_println@str str `*.35Cuc  1 p 2 19 ]
-"2179
+"2184
 } 0
-"2105
+"2110
 [v _Serial_putc Serial_putc `(v  1 e 0 0 ]
 {
 [v Serial_putc@d d `uc  1 a 1 wreg ]
-"2107
-[v Serial_putc@p p `uc  1 a 1 17 ]
-"2105
-[v Serial_putc@d d `uc  1 a 1 wreg ]
 "2112
+[v Serial_putc@p p `uc  1 a 1 17 ]
+"2110
+[v Serial_putc@d d `uc  1 a 1 wreg ]
+"2117
 [v Serial_putc@d d `uc  1 a 1 18 ]
-"2132
+"2137
 } 0
 "187
 [v _init init `(v  1 e 0 0 ]
@@ -1847,33 +1851,33 @@
 [v InterruptHandlerHigh@i i `uc  1 a 1 16 ]
 "184
 } 0
-"3190
+"3195
 [v _INT2_ISR INT2_ISR `(v  1 e 0 0 ]
 {
-"3196
+"3201
 } 0
-"3199
+"3204
 [v _INT2_CallBack INT2_CallBack `(v  1 e 0 0 ]
 {
-"3206
+"3211
 } 0
-"3169
+"3174
 [v _INT1_ISR INT1_ISR `(v  1 e 0 0 ]
 {
-"3175
+"3180
 } 0
-"3177
+"3182
 [v _INT1_CallBack INT1_CallBack `(v  1 e 0 0 ]
 {
-"3184
+"3189
 } 0
-"3148
+"3153
 [v _INT0_ISR INT0_ISR `(v  1 e 0 0 ]
 {
-"3154
+"3159
 } 0
-"3156
+"3161
 [v _INT0_CallBack INT0_CallBack `(v  1 e 0 0 ]
 {
-"3163
+"3168
 } 0
